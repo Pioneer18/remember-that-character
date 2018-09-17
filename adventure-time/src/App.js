@@ -19,13 +19,13 @@ class App extends Component {
   //this will use the other functions to make the game work
   handleClick = () => {
     //make sure it registered
-    conosle.log("clicked!");;
-    if(this.state.clicked.indexOf(id) === -1) {
+    console.log("clicked!");;
+    if(this.state.clicked.indexOf(this.id) === -1) {
       console.log("plus 1");
       //actually handle the increment
       this.handleIncrement();
       //put the clicked item, by id, into the clciked arrary with a concat
-      this.setState({clicked: this.state.clicked.concat(id)})
+      this.setState({clicked: this.state.clicked.concat(this.id)})
     } else{
       //if the id has already been clicked player loses and score resets
       console.log("doubled clicked");
@@ -75,6 +75,9 @@ class App extends Component {
             <CharacterCard
             key={character.id}
             handleIncrement={this.handleIncrement}
+            handleClick={this.handleClick}
+            handleReset={this.handleReset}
+            handleShuffle={this.handleShuffle}
             id={character.id}
             name={character.name}
             image={character.image}
