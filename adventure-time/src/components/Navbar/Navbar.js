@@ -3,7 +3,7 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => (
-    <div className="navbar navbar-default navbar-fixed-top">
+    <nav className="navbar">
             <ul className="nav">
                 <li className="brand"><a href="/">Remember Adventure Time</a></li>
                 <li className="instructions">Click on an Adventure Character to begin!</li>
@@ -13,7 +13,7 @@ const Navbar = () => (
                     "0"
                 </li>
             </ul>
-    </div>
+    </nav>
 )
 
 export default Navbar;
