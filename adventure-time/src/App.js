@@ -16,8 +16,8 @@ class App extends Component {
         <h1 className="title">Adventure Time</h1>
         {this.state.characters.map(character => (
           <CharacterCard
-          id={character.id}
           key={character.id}
+          id={character.id}
           name={character.name}
           image={character.image}
           />
