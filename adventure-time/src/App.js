@@ -4,6 +4,7 @@ import Wrapper from "./components/Wrapper";
 import characters from "./characters.json";
 import Jumbotron from "./components/Jumbotron";
 import Nav from "./components/Nav";
+import shuffle from "shuffle-array";
 import "./App.css";
 
 class App extends Component {
@@ -42,8 +43,10 @@ class App extends Component {
     });
   }
 
+  //npm shuffle-array package
   handleShuffle = () => {
-    
+      let shuffled = shuffle(characters);
+      this.setState({characters: shuffled});
   }
 
   render() {
