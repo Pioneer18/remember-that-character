@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Navbar from "./components/Navbar";
 import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
 import characters from "./characters.json";
@@ -12,17 +13,20 @@ class App extends Component {
 
   render() {
     return(
-      <Wrapper>
-        <h1 className="title">Adventure Time</h1>
-        {this.state.characters.map(character => (
-          <CharacterCard
-          key={character.id}
-          id={character.id}
-          name={character.name}
-          image={character.image}
-          />
-        ))}
-      </Wrapper>
+      <React.Fragment>
+        <Navbar />
+        <Wrapper>
+          <h1 className="title">Adventure Time</h1>
+          {this.state.characters.map(character => (
+            <CharacterCard
+            key={character.id}
+            id={character.id}
+            name={character.name}
+            image={character.image}
+            />
+          ))}
+        </Wrapper>
+      </React.Fragment>
     )
   }
 }

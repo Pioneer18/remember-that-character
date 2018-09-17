@@ -10,9 +10,6 @@
   font-family: 'Poor Story';
   font-size: 2rem;
 }
-.card .name{
-  margin-top: 30%;
-}
 
 .card > .img-container {
   border-radius: 5px 5px 0px 0px;
