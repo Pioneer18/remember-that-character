@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
 import characters from "./characters.json";
