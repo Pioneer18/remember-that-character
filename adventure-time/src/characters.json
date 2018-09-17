@@ -15,7 +15,7 @@
   },
   {
     "id": 3,
-    "name": "Bee",
+    "name": "Breezy",
     "image": "http://vignette2.wikia.nocookie.net/adventuretime/images/a/a6/%D0%9F%D1%87%D0%B5%D0%BB%D0%B0.png/revision/latest?cb=20140518083249&path-prefix=ru",
     "occupation": "Cashier",
     "location": "An Easter Island Head"
@@ -43,7 +43,7 @@
   },
   {
     "id": 7,
-    "name": "Simon",
+    "name": "Simon (Ice King)",
     "image": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/3/3d/Young_Ice_King_without_crown.png/revision/latest?cb=20121119112654",
     "occupation": "Looney Toon",
     "location": "A Rabbit Burrow"
@@ -71,7 +71,7 @@
   },
   {
     "id": 11,
-    "name": "Frog",
+    "name": "LSP Frog",
     "image": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/4/43/At_frog.PNG/revision/latest?cb=20120426013737",
     "occupation": "Superhero",
     "location": "Earth"
