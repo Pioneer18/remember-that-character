@@ -22,7 +22,7 @@ class App extends Component {
   handleIncrement = () => {
 
     const newScore = this.state.score +1;
-    console.log("Increment counter " + newscore);
+    console.log("Increment counter " + newScore);
     this.setState({
       score: newScore
     });
@@ -30,7 +30,7 @@ class App extends Component {
       this.setState({topScore: newScore});
     }
     else if (newScore === 12) {
-      console.log("you Win!")
+      console.log("you Win!");
     }
   }
 
@@ -55,6 +55,7 @@ class App extends Component {
           {this.state.characters.map(character => (
             <CharacterCard
             key={character.id}
+            handleIncrement={this.handleIncrement}
             id={character.id}
             name={character.name}
             image={character.image}
