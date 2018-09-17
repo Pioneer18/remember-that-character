@@ -35,7 +35,11 @@ class App extends Component {
   }
 
   handleReset = () => {
-
+    //this will reset the score if the player gets a wrong guess
+    this.setState({
+      currentScore: 0,
+      topScore: this.state.topScore,
+    });
   }
 
   handleShuffle = () => {
