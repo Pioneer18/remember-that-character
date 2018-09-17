@@ -1,0 +1,7 @@
+.jumbotron {
+    position: relative;
+    z-index: -2;
+    background-size: 100%;
+    text-align: center;
+    background: yellow;
+}

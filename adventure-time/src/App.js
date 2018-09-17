@@ -3,6 +3,7 @@ import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
 import characters from "./characters.json";
 import Jumbotron from "./components/Jumbotron";
+import Nav from "./components/Nav";
 import "./App.css";
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
   render() {
     return(
       <React.Fragment>
+        <Nav/>
         <Jumbotron />
         <Wrapper>
           <h1 className="title">Adventure Time</h1>
