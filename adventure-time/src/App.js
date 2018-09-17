@@ -17,15 +17,15 @@ class App extends Component {
   };
 
   //this will use the other functions to make the game work
-  handleClick = () => {
+  handleClick = id => {
     //make sure it registered
     console.log("clicked!");;
-    if(this.state.clicked.indexOf(this.id) === -1) {
+    if(this.state.clicked.indexOf(id) === -1) {
       console.log("plus 1");
       //actually handle the increment
       this.handleIncrement();
       //put the clicked item, by id, into the clciked arrary with a concat
-      this.setState({clicked: this.state.clicked.concat(this.id)})
+      this.setState({clicked: this.state.clicked.concat(id)})
     } else{
       //if the id has already been clicked player loses and score resets
       console.log("doubled clicked");
