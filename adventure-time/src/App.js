@@ -8,7 +8,11 @@ import "./App.css";
 class App extends Component {
   
   state = {
-    characters
+    characters,
+    Score: 0,
+    topscore: 0,
+    guess: "",
+    clicked:[]
   }
 
   render() {
