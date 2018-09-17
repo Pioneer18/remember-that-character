@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import Navbar from "./components/Navbar";
 import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
 import characters from "./characters.json";
+import Jumbotron from "./components/Jumbotron";
 import "./App.css";
 
 class App extends Component {
@@ -13,12 +13,12 @@ class App extends Component {
     topscore: 0,
     guess: "",
     clicked:[]
-  }
+  };
 
   render() {
     return(
       <React.Fragment>
-        <Navbar />
+        <Jumbotron />
         <Wrapper>
           <h1 className="title">Adventure Time</h1>
           {this.state.characters.map(character => (
