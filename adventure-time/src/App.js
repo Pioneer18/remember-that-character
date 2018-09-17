@@ -10,8 +10,8 @@ class App extends Component {
   
   state = {
     characters,
-    Score: 0,
-    topscore: 0,
+    score: 0,
+    topScore: 0,
     clicked:[]
   };
 
@@ -21,6 +21,17 @@ class App extends Component {
 
   handleIncrement = () => {
 
+    const newScore = this.state.score +1;
+    console.log("Increment counter " + newscore);
+    this.setState({
+      score: newScore
+    });
+    if (newScore >= this.state.topScore) {
+      this.setState({topScore: newScore});
+    }
+    else if (newScore === 12) {
+      //
+    }
   }
 
   handleReset = () => {
@@ -34,7 +45,10 @@ class App extends Component {
   render() {
     return(
       <React.Fragment>
-        <Nav/>
+        <Nav
+          score={this.state.score}
+          topscore={this.state.topScore}
+        />
         <Jumbotron />
         <Wrapper>
           <h1 className="title">Adventure Time</h1>
