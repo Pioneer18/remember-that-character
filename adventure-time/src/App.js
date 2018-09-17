@@ -16,12 +16,24 @@ class App extends Component {
     clicked:[]
   };
 
+  //this will use the other functions to make the game work
   handleClick = () => {
-    
+    //make sure it registered
+    conosle.log("clicked!");;
+    if(this.state.clicked.indexOf(id) === -1) {
+      console.log("plus 1");
+      //actually handle the increment
+      this.handleIncrement();
+      //put the clicked item, by id, into the clciked arrary with a concat
+      this.setState({clicked: this.state.clicked.concat(id)})
+    } else{
+      //if the id has already been clicked player loses and score resets
+      console.log("doubled clicked");
+      this.handleReset();
+    }
   }
 
   handleIncrement = () => {
-
     const newScore = this.state.score +1;
     console.log("Increment counter " + newScore);
     this.setState({
