@@ -75,9 +75,6 @@ class App extends Component {
             <CharacterCard
             key={character.id}
             handleIncrement={this.handleIncrement}
-            handleClick={this.handleClick}
-            handleReset={this.handleReset}
-            handleShuffle={this.handleShuffle}
             id={character.id}
             name={character.name}
             image={character.image}
