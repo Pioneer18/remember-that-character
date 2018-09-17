@@ -30,7 +30,7 @@ class App extends Component {
       this.setState({topScore: newScore});
     }
     else if (newScore === 12) {
-      //
+      console.log("you Win!")
     }
   }
 
