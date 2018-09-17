@@ -12,9 +12,24 @@ class App extends Component {
     characters,
     Score: 0,
     topscore: 0,
-    guess: "",
     clicked:[]
   };
+
+  handleClick = () => {
+    
+  }
+
+  handleIncrement = () => {
+
+  }
+
+  handleReset = () => {
+
+  }
+
+  handleShuffle = () => {
+    
+  }
 
   render() {
     return(
