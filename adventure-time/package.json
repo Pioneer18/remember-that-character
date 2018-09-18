@@ -4,14 +4,13 @@
   "private": true,
   "homepage": "https://pioneer18.github.io/remember-that-character/",
   "dependencies": {
-    "gh-pages": "^2.0.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-scripts": "1.1.5",
     "shuffle-array": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
