@@ -33,6 +33,8 @@ class App extends Component {
     }
   }
 
+  //======================================================================================
+
   handleIncrement = () => {
     const newScore = this.state.score +1;
     console.log("Increment counter " + newScore);
@@ -40,25 +42,24 @@ class App extends Component {
       score: newScore
     });
     if (newScore >= this.state.topScore) {
-      this.setState({topScore: newScore});
-    }
-    else if (newScore === 12) {
-      console.log("you Win!");
-    }
+      this.setState({ topScore: newScore });
+    };
+    this.handleShuffle();
   }
 
   handleReset = () => {
     //this will reset the score if the player gets a wrong guess
     this.setState({
-      currentScore: 0,
+      score: 0,
       topScore: this.state.topScore,
+      clicked:[]
     });
-  }
+  };
 
   //npm shuffle-array package
   handleShuffle = () => {
       let shuffled = shuffle(characters);
-      this.setState({characters: shuffled});
+      this.setState({ characters: shuffled });
   }
 
   render() {
@@ -74,10 +75,13 @@ class App extends Component {
           {this.state.characters.map(character => (
             <CharacterCard
             key={character.id}
-            handleIncrement={this.handleIncrement}
             id={character.id}
             name={character.name}
             image={character.image}
+            handleClick={this.handleClick}
+            handleIncrement={this.handleIncrement}
+            handleReset={this.handleReset}
+            handleShuffle={this.handleShuffle}
             />
           ))}
         </Wrapper>
