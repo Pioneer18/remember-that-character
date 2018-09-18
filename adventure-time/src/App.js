@@ -36,13 +36,14 @@ class App extends Component {
   //======================================================================================
 
   handleIncrement = () => {
-    const newScore = this.state.score +1;
+    const newScore = this.state.score + 1;
     console.log("Increment counter " + newScore);
     this.setState({
       score: newScore
     });
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
+      console.log("topScore" + this.state.topScore);
     };
     this.handleShuffle();
   }
@@ -67,7 +68,7 @@ class App extends Component {
       <React.Fragment>
         <Nav
           score={this.state.score}
-          topscore={this.state.topScore}
+          topScore={this.state.topScore}
         />
         <Jumbotron />
         <Wrapper>
