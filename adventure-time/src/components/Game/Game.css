@@ -1,9 +1,7 @@
-.jumbotron {
+.Game{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background: yellow;
-    /*setup for centering text below; using flexbox 'justify-content' and 'align-items'*/
     position: relative;
     display: flex;
     flex-direction: column;
