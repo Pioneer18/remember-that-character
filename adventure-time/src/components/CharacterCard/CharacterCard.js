@@ -11,8 +11,8 @@ const CharacterCard = props => (
     <Desktop>
       <div className="card" 
       style={{ 
-        width:"250px",
-        height:"250px",
+        width:"13em",
+        height:"13em",
         background: `url(${props.image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -27,8 +27,8 @@ const CharacterCard = props => (
     <Tablet>
       <div className="card" 
       style={{ 
-        width:"125px",
-        height:"125px",
+        width:"10em",
+        height:"10em",
         background: `url(${props.image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -43,8 +43,8 @@ const CharacterCard = props => (
     <Mobile>
       <div className="card" 
       style={{ 
-        width:"125px",
-        height:"125px",
+        width:"8em",
+        height:"8em",
         background: `url(${props.image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -60,8 +60,8 @@ const CharacterCard = props => (
     <Mini>
       <div className="card" 
       style={{ 
-        width:"75px",
-        height:"75px",
+        width:"6em",
+        height:"6em",
         background: `url(${props.image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
