@@ -1,5 +1,10 @@
 import React from "react";
 import "./Jumbotron.css";
+import Responsive from 'react-responsive';
+const Desktop = props => <Responsive {...props} minWidth={992} />;
+const Tablet = props => <Responsive {...props} minWidth={768} maxWidth={991} />;
+const Mobile = props => <Responsive {...props} minWidth={480} maxWidth={767} />;
+const Mini = props => <Responsive {...props} maxWidth={479} />;
 
 export default class jumbotron extends React.Component {
     constructor(props) {
@@ -30,21 +35,55 @@ export default class jumbotron extends React.Component {
 
 
     render() {
-        const height = {height: window.innerHeight, widht: window.innerWidth}
+        const height = {height: window.innerHeight, width: window.innerWidth}
         return (
-            <div style={height} className="jumbotron">
-                <div className="container">
-                <span className="top">Adventure Time Memory game</span>
+            <React.Fragment>
+            <Desktop> 
+                <div style={height} className="jumbotron">
+                    <div className="container">
+                    <span className="top">Adventure Time Memory game</span>
 
-                <br/>
-                
-                <span className="instructions">Try to select each of the 12 characters in a row 
-                
-                <br/>
-                
-                without selecting any of them twice!</span>
+                    <br/>
+                    
+                    <span className="instructions">Try to select each of the 12 characters in a row 
+                    
+                    <br/>
+                    
+                    without selecting any of them twice!</span>
+                    </div>
                 </div>
-            </div>
+            </Desktop>
+            <Tablet>
+             <div style={height} className="jumbotron">
+                    <div className="container">
+                    <span className="top">Adventure Time Memory game</span>
+
+                    <br/>
+                    
+                    <span className="instructions">Try to select each of the 12 characters in a row 
+                    
+                    <br/>
+                    
+                    without selecting any of them twice!</span>
+                    </div>
+                </div>
+            </Tablet>
+            <Mobile>
+             <div style={height} className="jumbotron">
+                    <div className="container">
+                    <span className="top">Adventure Time Memory game</span>
+
+                    <br/>
+                    
+                    <span className="instructions">Try to select each of the 12 characters in a row 
+                    
+                    <br/>
+                    
+                    without selecting any of them twice!</span>
+                    </div>
+                </div>
+            </Mobile>
+            </React.Fragment>
         );
     }
 
