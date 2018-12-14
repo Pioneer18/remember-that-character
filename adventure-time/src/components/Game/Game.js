@@ -13,6 +13,7 @@ export default class Game extends React.Component {
             characters,
             score: 0,
             topScore: 0,
+            wins: 0,
             clicked: [],
             width: 0,
             height: 0,
@@ -22,6 +23,7 @@ export default class Game extends React.Component {
 
     }
 
+/*----------------------make the game screen fit the viewport------------------ */
     componentDidMount() {
         this.updateWindowDimensions();
         window.addEventListener('resize', this.updateWindowDimensions);
@@ -48,17 +50,13 @@ export default class Game extends React.Component {
 
     //this will use the other functions to make the game work
     handleClick = id => {
-        //make sure it registered
-        console.log("clicked!");;
         if (this.state.clicked.indexOf(id) === -1) {
-            console.log("plus 1");
             //actually handle the increment
             this.handleIncrement();
             //put the clicked item, by id, into the clciked arrary with a concat
             this.setState({ clicked: this.state.clicked.concat(id) })
         } else {
             //if the id has already been clicked player loses and score resets
-            console.log("doubled clicked");
             this.handleReset();
         }
     }
@@ -73,6 +71,9 @@ export default class Game extends React.Component {
         if (newScore >= this.state.topScore) {
             this.setState({ topScore: newScore });
         };
+        if (newScore === 12){
+            this.setState({ score: 0, topScore:0})
+        }
         this.handleShuffle();
     }
 

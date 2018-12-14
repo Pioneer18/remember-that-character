@@ -10,9 +10,10 @@ import {
     const text = {color:"#fff", padding: "0 1rem"}
     const navBack = {
         backgroundColor: "#000", 
-        padding: ".5% 10%",
+        paddingTop:"1.2rem",
         width: "100%",
-        position: "absolute"
+        position: "absolute",
+        
       }
 
 //will get it's score props from App
@@ -20,7 +21,7 @@ const Navigation = props => (
     
     <Navbar sticky="top" light style={navBack}  expand="md">
     
-            <Nav  className="ml-auto" navbar>
+            <Nav  className="ml-auto nav-container" navbar>
             <NavItem>
                 <NavLink style={text} to="#">Score: {props.score}</NavLink>
             </NavItem>
