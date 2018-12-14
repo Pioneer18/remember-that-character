@@ -1,9 +1,8 @@
 .jumbotron {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background: yellow;
+    background:url('../../images/cropedTreeHouse.jpg');
     /*setup for centering text below; using flexbox 'justify-content' and 'align-items'*/
+    background-size: cover;
+    background-position: center;
     position: relative;
     display: flex;
     flex-direction: column;

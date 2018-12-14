@@ -95,7 +95,7 @@ export default class Game extends React.Component {
         const height = {height: window.innerHeight, widht: window.innerWidth}
         return (
             <div style={height} className="Game">
-                <Navigation score={this.props.score} topScore={this.props.topScore} />
+                <Navigation score={this.state.score} topScore={this.state.topScore} />
                 <Wrapper>
                     {this.state.characters.map(character => (
                         <CharacterCard

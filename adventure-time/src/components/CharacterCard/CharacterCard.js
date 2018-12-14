@@ -60,8 +60,8 @@ const CharacterCard = props => (
     <Mini>
       <div className="card" 
       style={{ 
-        width:"6em",
-        height:"6em",
+        width:"5.2em",
+        height:"5.2em",
         background: `url(${props.image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
