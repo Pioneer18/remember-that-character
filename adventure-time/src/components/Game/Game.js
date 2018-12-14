@@ -1,5 +1,5 @@
 import React from 'react';
-import characters from "../../characters.json";
+import characters from "../../characters.js";
 import CharacterCard from "../CharacterCard";
 import Wrapper from "../Wrapper";
 import Navigation from "../Navigation";
