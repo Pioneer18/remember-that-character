@@ -34,8 +34,15 @@ export default class jumbotron extends React.Component {
         return (
             <div style={height} className="jumbotron">
                 <div className="container">
-                    <h1 className="display-4">Adventure Time Memory Game</h1>
-                    <p className="lead">Click on an image to earn points, but don't click on any character more than once</p>
+                <span className="top">Adventure Time Memory game</span>
+
+                <br/>
+                
+                <span className="instructions">Try to select each of the 12 characters in a row 
+                
+                <br/>
+                
+                without selecting any of them twice!</span>
                 </div>
             </div>
         );

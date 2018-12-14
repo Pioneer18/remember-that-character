@@ -25,7 +25,7 @@ const Navigation = props => (
                 <NavLink style={text} to="#">Score: {props.score}</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink style={text} to="#">Top Score: {props.topScore}</NavLink>
+                <NavLink style={text} to="#">Top Score: {props.topScore} out of 12</NavLink>
             </NavItem>
             </Nav>
 
