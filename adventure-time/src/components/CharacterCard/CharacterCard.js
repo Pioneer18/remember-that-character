@@ -43,8 +43,8 @@ const CharacterCard = props => (
     <Mobile>
       <div className="card" 
       style={{ 
-        width:"8em",
-        height:"8em",
+        width:"6em",
+        height:"6em",
         background: `url(${props.image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
