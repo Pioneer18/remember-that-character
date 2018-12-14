@@ -71,11 +71,11 @@ export default class jumbotron extends React.Component {
             <Mobile>
              <div style={height} className="jumbotron">
                     <div className="container">
-                    <span style={{fontSize: "2.4rem"}} className="top">Adventure Time Memory game</span>
+                    <span style={{fontSize: "3rem"}} className="top">Adventure Time Memory game</span>
 
                     <br/>
                     
-                    <span style={{fontSize: "1.2rem"}} className="instructions">Try to select each of the 12 characters in a row 
+                    <span style={{fontSize: "2rem"}} className="instructions">Try to select each of the 12 characters in a row 
                     
                     <br/>
                     
@@ -86,11 +86,11 @@ export default class jumbotron extends React.Component {
             <Mini>
                 <div style={height} className="jumbotron">
                     <div className="container">
-                    <span style={{fontSize: "2rem"}} className="top">Adventure Time Memory game</span>
+                    <span style={{fontSize: "2.5rem"}} className="top">Adventure Time Memory game</span>
 
                     <br/>
                     
-                    <span style={{fontSize: "1.2rem"}} className="instructions">Try to select each of the 12 characters in a row 
+                    <span style={{fontSize: "1.8rem"}} className="instructions">Try to select each of the 12 characters in a row 
                     
                     <br/>
                     
