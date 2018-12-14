@@ -1,11 +1,8 @@
 .Game{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin:0;
+    position: relative;
 }

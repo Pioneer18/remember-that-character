@@ -97,7 +97,6 @@ export default class Game extends React.Component {
             <div style={height} className="Game">
                 <Navigation score={this.props.score} topScore={this.props.topScore} />
                 <Wrapper>
-                    <h1 className="title">Adventure Time</h1>
                     {this.state.characters.map(character => (
                         <CharacterCard
                             key={character.id}

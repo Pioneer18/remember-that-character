@@ -12,12 +12,13 @@ import {
         backgroundColor: "#000", 
         padding: ".5% 10%",
         width: "100%",
+        position: "absolute"
       }
 
 //will get it's score props from App
 const Navigation = props => (
     
-    <Navbar light style={navBack}  expand="md">
+    <Navbar sticky="top" light style={navBack}  expand="md">
     
             <Nav  className="ml-auto" navbar>
             <NavItem>
