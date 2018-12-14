@@ -1,9 +1,9 @@
 {
-  "main.css": "/remember-that-character/static/css/main.1439740b.chunk.css",
-  "main.js": "/remember-that-character/static/js/main.0823f2d0.chunk.js",
-  "main.js.map": "/remember-that-character/static/js/main.0823f2d0.chunk.js.map",
-  "static/js/1.d089357e.chunk.js": "/remember-that-character/static/js/1.d089357e.chunk.js",
-  "static/js/1.d089357e.chunk.js.map": "/remember-that-character/static/js/1.d089357e.chunk.js.map",
+  "main.css": "/remember-that-character/static/css/main.6a0dab24.chunk.css",
+  "main.js": "/remember-that-character/static/js/main.70ccd998.chunk.js",
+  "main.js.map": "/remember-that-character/static/js/main.70ccd998.chunk.js.map",
+  "static/js/1.d7f0be47.chunk.js": "/remember-that-character/static/js/1.d7f0be47.chunk.js",
+  "static/js/1.d7f0be47.chunk.js.map": "/remember-that-character/static/js/1.d7f0be47.chunk.js.map",
   "runtime~main.js": "/remember-that-character/static/js/runtime~main.9320580e.js",
   "runtime~main.js.map": "/remember-that-character/static/js/runtime~main.9320580e.js.map",
   "static/media/Jumbotron.css": "/remember-that-character/static/media/cropedTreeHouse.56ed1cf0.jpg",
@@ -18,8 +18,8 @@
   "static/media/smoothLsp.png": "/remember-that-character/static/media/smoothLsp.91ac6a44.png",
   "static/media/toronto.png": "/remember-that-character/static/media/toronto.8e747a0e.png",
   "static/media/chooseGoose.png": "/remember-that-character/static/media/chooseGoose.12dd8fb9.png",
-  "static/css/main.1439740b.chunk.css.map": "/remember-that-character/static/css/main.1439740b.chunk.css.map",
+  "static/css/main.6a0dab24.chunk.css.map": "/remember-that-character/static/css/main.6a0dab24.chunk.css.map",
   "index.html": "/remember-that-character/index.html",
-  "precache-manifest.d3332367cf3e9f730618a83b97c2850c.js": "/remember-that-character/precache-manifest.d3332367cf3e9f730618a83b97c2850c.js",
+  "precache-manifest.1962a116de80b5d3d408b3017b5ec195.js": "/remember-that-character/precache-manifest.1962a116de80b5d3d408b3017b5ec195.js",
   "service-worker.js": "/remember-that-character/service-worker.js"
 }
