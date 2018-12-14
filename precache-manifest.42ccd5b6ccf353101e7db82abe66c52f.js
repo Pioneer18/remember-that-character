@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/remember-that-character/static/media/finn.e49f06d7.png"
   },
   {
-    "revision": "ad4b08e9e7150f267d20",
-    "url": "/remember-that-character/static/css/main.6a0dab24.chunk.css"
+    "revision": "a5f86a0ccccc51d852b4",
+    "url": "/remember-that-character/static/css/main.47463043.chunk.css"
   },
   {
-    "revision": "d7f0be47e0b806dcd886",
-    "url": "/remember-that-character/static/js/1.d7f0be47.chunk.js"
+    "revision": "26d8363180f54772aabc",
+    "url": "/remember-that-character/static/js/1.26d83631.chunk.js"
   },
   {
     "revision": "9320580e3ec0e8204fc6",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/remember-that-character/static/media/dukeNuts.835d8053.jpg"
   },
   {
-    "revision": "ad4b08e9e7150f267d20",
-    "url": "/remember-that-character/static/js/main.ad4b08e9.chunk.js"
+    "revision": "a5f86a0ccccc51d852b4",
+    "url": "/remember-that-character/static/js/main.a5f86a0c.chunk.js"
   },
   {
     "revision": "3d23bf34b437bba3a4ecbf9744d80720",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/remember-that-character/static/media/cropedTreeHouse.56ed1cf0.jpg"
   },
   {
-    "revision": "9529baa99f379730e796eaa3d874b3c2",
+    "revision": "905e02e57943939b32040fcb2ed0bf78",
     "url": "/remember-that-character/index.html"
   }
 ];
