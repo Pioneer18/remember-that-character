@@ -75,7 +75,7 @@ export default class jumbotron extends React.Component {
 
                     <br/>
                     
-                    <span style={{fontSize: "1.8rem", lineHeight: "1.3rem"}} className="instructions">Try to select each of the 12 characters in a row 
+                    <span style={{fontSize: "1.8rem", lineHeight: "1.1rem"}} className="instructions">Try to select each of the 12 characters in a row 
                     
                     <br/>
                     
@@ -90,7 +90,7 @@ export default class jumbotron extends React.Component {
 
                     <br/>
                     
-                    <span style={{fontSize: "1.8rem", lineHeight: "1.3rem"}} className="instructions">Try to select each of the 12 characters in a row 
+                    <span style={{fontSize: "1.8rem", lineHeight: "1.1rem"}} className="instructions">Try to select each of the 12 characters in a row 
                     
                     <br/>
                     
