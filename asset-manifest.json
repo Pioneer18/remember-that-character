@@ -1,7 +1,7 @@
 {
   "main.css": "/remember-that-character/static/css/main.6a0dab24.chunk.css",
-  "main.js": "/remember-that-character/static/js/main.b81d3ec9.chunk.js",
-  "main.js.map": "/remember-that-character/static/js/main.b81d3ec9.chunk.js.map",
+  "main.js": "/remember-that-character/static/js/main.df6bc910.chunk.js",
+  "main.js.map": "/remember-that-character/static/js/main.df6bc910.chunk.js.map",
   "static/js/1.d7f0be47.chunk.js": "/remember-that-character/static/js/1.d7f0be47.chunk.js",
   "static/js/1.d7f0be47.chunk.js.map": "/remember-that-character/static/js/1.d7f0be47.chunk.js.map",
   "runtime~main.js": "/remember-that-character/static/js/runtime~main.9320580e.js",
@@ -20,6 +20,6 @@
   "static/media/chooseGoose.png": "/remember-that-character/static/media/chooseGoose.12dd8fb9.png",
   "static/css/main.6a0dab24.chunk.css.map": "/remember-that-character/static/css/main.6a0dab24.chunk.css.map",
   "index.html": "/remember-that-character/index.html",
-  "precache-manifest.cc5d6bfc9b725426e32d4dc6cd734bef.js": "/remember-that-character/precache-manifest.cc5d6bfc9b725426e32d4dc6cd734bef.js",
+  "precache-manifest.038f2f9fb2e2bc88d3e2a75855fa8ebc.js": "/remember-that-character/precache-manifest.038f2f9fb2e2bc88d3e2a75855fa8ebc.js",
   "service-worker.js": "/remember-that-character/service-worker.js"
 }
