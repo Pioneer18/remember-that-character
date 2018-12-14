@@ -72,7 +72,8 @@ export default class Game extends React.Component {
             this.setState({ topScore: newScore });
         };
         if (newScore === 12){
-            this.setState({ score: 0, topScore:0})
+            const victory = this.state.wins + 1;
+            this.setState({ score: 0, topScore:0, wins: victory})
         }
         this.handleShuffle();
     }
@@ -96,7 +97,7 @@ export default class Game extends React.Component {
         const height = {height: window.innerHeight, widht: window.innerWidth}
         return (
             <div style={height} className="Game">
-                <Navigation score={this.state.score} topScore={this.state.topScore} />
+                <Navigation wins={this.state.wins} score={this.state.score} topScore={this.state.topScore} />
                 <Wrapper>
                     {this.state.characters.map(character => (
                         <CharacterCard

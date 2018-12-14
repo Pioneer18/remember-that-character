@@ -23,6 +23,9 @@ const Navigation = props => (
     
             <Nav  className="ml-auto nav-container" navbar>
             <NavItem>
+                <NavLink style={text} to="#">Wins: {props.wins}</NavLink>
+            </NavItem>
+            <NavItem>
                 <NavLink style={text} to="#">Score: {props.score}</NavLink>
             </NavItem>
             <NavItem>
